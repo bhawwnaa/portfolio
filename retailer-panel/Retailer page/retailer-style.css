@@ -1,0 +1,152 @@
+.retailer{
+    font-weight: 700;
+}
+/* target services start */
+
+.title-target{
+font-weight: 700;
+font-size: 20px;
+line-height: 10px;
+color: #17A7AE;
+}
+#cardmain .card-body{
+    min-height: 270px!important;
+}
+.card-target-service{
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
+}
+
+.row-contain-services-card{
+    background-color: #17A7AE; 
+    padding-top: 15px; 
+    border-radius: 10px; 
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.contain-light-clr-services-cards{
+    background-color: #E2F3F3; 
+    padding-top: 15px; 
+    border-radius: 10px; 
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.heading-targets{
+font-weight: 500;
+font-size: 20px;
+line-height: 15px;
+color: #FFA700;
+
+}
+.target-no-img{
+    width: 10%;
+}
+.item-card2 .item-card2-text h4{
+    font-size: 20px;
+    text-align: center;
+    border-bottom: #a5a5a5 1px dashed;
+    padding-bottom: 6px;
+    font-weight: 600;
+    line-height: 50px;
+}
+.item-card2 ul li a{
+    color: #4d5c6f;
+    /* float: right; */
+    width: 100%;
+    margin-right: 0!important;
+    font-size: 14px;
+    /* border-bottom: #a5a5a5 1px solid; */
+    /* padding-bottom: 10px; */
+}
+
+/* new section css */
+
+.row-contain-news-offers{
+ gap: 15px;
+}
+.news-container{    
+max-width: 100%; 
+visibility: visible; 
+overflow: hidden; 
+position: relative; 
+max-height: 459px; 
+overflow-y: scroll;
+}
+.newsscroller_title::before{
+    color: #ff1d46;
+    font-family: "Founders Grotesk Condensed Semibold",system-ui;
+    font-size: 36px;
+    line-height: 1;
+    content: counter(mpCounter) ". ";
+    position: absolute;
+    top: 18px;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+.card-news-section{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: #E2F3F3;
+}
+
+
+/* offer-section-css */
+
+.contain-offers{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: #E2F3F3;
+    border-radius: 10px;
+    height: 325px;
+}
+
+
+
+/* new design news */
+
+.mostPopular--list-item {
+    border-bottom: 1px solid #e7e7e7;
+    counter-increment: mpCounter;
+    display: flex;
+    float: left;
+    margin-bottom: 0;
+    padding: 20px 0;
+    position: relative;
+    width: 100%;
+}
+/* .mostPopular--list-item::before {
+    color: #ff1d46;
+    font-family: "Founders Grotesk Condensed Semibold",system-ui;
+    font-size: 36px;
+    line-height: 1;
+    content: counter(mpCounter) ". ";
+    position: absolute;
+    top: 18px;
+} */
+.mostPopular--list-title {
+    color: #111;
+    font-family: "Founders Grotesk Condensed Semibold",system-ui;
+    font-size: 18px;
+    line-height: 1;
+    flex: 1 0 50%;
+    margin-left: 45px;
+    min-height: 32px;
+    opacity: 1;
+    padding-top: 3px;
+    transition: opacity 0.15s ease-in-out;
+}

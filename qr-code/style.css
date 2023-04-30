@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap')
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --primary-font: 'Roboto', sans-serif;
+    --secondary-font: 'Quicksand', sans-serif;
+}
+
+
+
+.code{
+    /* display: flex;
+    justify-content: center; */
+    background: lightblue;
+    padding: 45px;
+    /* align-items: center; */
+    
+    /* margin-bottom: 90px; */
+    
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    border-radius: 20px;
+    /* align-items: center; */
+}
+
+.card img{
+    border-radius: 20px;
+}
+
+.card h4{
+    font-family: var(--primary-font);
+    padding: 30px 5px 0 5px;
+    font-size: 26px;
+
+    /* font-weight: 500; */
+}
+
+.card p{
+    padding: 5px 10px 0 10px;
+    color: gray; 
+}
+
+
+

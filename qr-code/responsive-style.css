@@ -1,0 +1,38 @@
+@media (max-width: 1024px) {
+
+
+}
+
+@media (max-width: 991px) {
+    .code{
+        width: 100%;
+    }
+
+    
+
+    /* .ram{
+        width: 100%;
+        padding: 9.375rem 0 9.375rem;
+    } */
+
+}
+
+@media (max-width: 767px) {
+    .code{
+        width: 100%;
+    }
+    
+
+    
+
+    
+
+}
+
+@media (max-width:330px) {
+    .code{
+        width: 100%;
+    }
+
+    
+}
